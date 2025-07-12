@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add/Edit Employee</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="form-container">
+    <h2 id="formTitle">Add Employee</h2>
+    <form id="employeeForm">
+      <input type="hidden" id="employeeId" />
+
+      <label>First Name:
+        <input type="text" id="firstName" required />
+      </label>
+
+      <label>Last Name:
+        <input type="text" id="lastName" required />
+      </label>
+
+      <label>Email:
+        <input type="email" id="email" required />
+      </label>
+
+      <label>Department:
+        <select id="department" required>
+          <option value="">Select Department</option>
+          <option>HR</option>
+          <option>Engineering</option>
+          <option>Sales</option>
+          <option>IT</option>
+        </select>
+      </label>
+
+      <label>Role:
+        <input type="text" id="role" required />
+      </label>
+
+      <div class="form-actions">
+        <button type="submit">Save</button>
+        <button type="button" onclick="window.location.href='index.html'">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="form.js"></script>
+</body>
+</html>
