@@ -1,5 +1,4 @@
-# Employee-Directory-2
-# Employee-Directory-2
+# Employee-Directory
 # Employee Directory UI
 
 A responsive, interactive Employee Directory frontend built using HTML, CSS, JavaScript, and Freemarker.
